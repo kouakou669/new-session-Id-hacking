@@ -1,0 +1,9 @@
+version: 1
+services:
+  - type: web
+    name: HACKING-MD 
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    rootDir: .
