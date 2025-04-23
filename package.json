@@ -1,7 +1,7 @@
 {
   "name": "HACKING-MD",
   "version": "0.1.0",
-  "description": "WhatsApp pair code and QR-code generator by Ainz",
+  "description": "WhatsApp pair code and QR-code generator by Thomas tech",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --attach --name ovl"
