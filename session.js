@@ -1,8 +1,8 @@
 const { Pool } = require('pg');
 
-// Remplacez par votre URL de connexion Render
+// Configuration de la connexion à la base de données
 const pool = new Pool({
-  connectionString: 'postgres://user:password@host:port/database',
+  connectionString: 'postgresql://thomas_k3lw_user:ePmbhxsGM9beyLb2Y0thgJO6WqkQvHGD@dpg-cvoqc1ngi27c73at2fmg-a.oregon-postgres.render.com/thomas_k3lw',
 });
 
 // Fonction pour insérer une nouvelle session
