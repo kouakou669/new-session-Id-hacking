@@ -1,8 +1,8 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/Ainz-fkk/OVL-MD-SESSION-ID /root/OVL-MD-SESSION-ID
+RUN git clone https://github.com/kouakou669/new-session-Id-hacking /root/HACKING-MD 
 
-WORKDIR /root/OVL-MD-SESSION-ID
+WORKDIR /root/HACKING-MD 
 
 COPY package.json .
 RUN npm i
